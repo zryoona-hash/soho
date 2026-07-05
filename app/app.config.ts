@@ -239,9 +239,9 @@ export default defineAppConfig({
       { icon: 'Phone', label: 'Phone', value: '+86 136 5661 7631' },
       { icon: 'MapPin', label: 'Office', value: 'jiaxing, zhejiang, China' }
     ],
-    "email": "inquiry@yourfactory.com",
-    "phone": "+86 136 5661 7631",
-    "address": "123 Business Avenue, Tech Industrial Zone, Shenzhen, China"
+    "email": "zryoona@gmail.com",
+    "phone": "+86 152 1113 6725",
+    "address": "Yuhua District, Changsha, Hunan, China",
   },
   "footer": {
     "emailmessage": "Request a Product Sample",
