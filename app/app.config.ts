@@ -235,9 +235,9 @@ export default defineAppConfig({
     "title": "Start your next",
     "sptext": "project",
     "contactInfo": [
-      { icon: 'Mail', label: 'Email', value: 'hello@dadymemplate.com' },
-      { icon: 'Phone', label: 'Phone', value: '+86 136 5661 7631' },
-      { icon: 'MapPin', label: 'Office', value: 'jiaxing, zhejiang, China' }
+      { icon: 'Mail', label: 'Email', value: 'zryoona@gmail.com' },
+      { icon: 'Phone', label: 'Phone', value: '+86 152 1113 6725' },
+      { icon: 'MapPin', label: 'Office', value: 'Yuhua District, Changsha, Hunan, China' }
     ],
     "email": "zryoona@gmail.com",
     "phone": "+86 152 1113 6725",
