@@ -1,19 +1,19 @@
 // app.config.ts
 export default defineAppConfig({
   "base": {
-    "email": "inofo@daddytemplate.com",
-    "companyName": "daddytemplate Corporate",
-    "phone": "+86 (136) 5661-7631",
-    "address": "123 Main St, Anytown, CHina"
+    "email": "zryoona@gamil.com",
+    "companyName": "Jinglan Sourcing",
+    "phone": "+86 15211136725",
+    "address": "Yuhua District, Changsha, Hunan, China"
   },
   "logo": {
     "logoUrl": "https://hidaddy.oss-cn-shanghai.aliyuncs.com/daddytemplate/fortemplate/logo2.svg",
-    "logoName": "Your Company Name",
-    "slogan": "DaddyTemplate is a global business platform that helps businesses to grow and succeed."
+    "logoName": "Jinglan Sourcing",
+    "slogan": "Smarter Sourcing from China. Lower Cost, Same Quality."
   },
   "index": {
     "hero": {
-      "welcomeText": "老爹模板",
+      "welcomeText": "Jinglan Sourcing",
       "mainHeading": "Your Global Business Journey Starts Here",
       "ctaButton": "Discover our products",
       "logoMarqueeFirst": " Relied on by brands",
