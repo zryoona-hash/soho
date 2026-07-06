@@ -122,6 +122,7 @@ const onSubmit = handleSubmit(
             toast.error('Configuration not loaded yet, please try again.');
             return;
         }
+        console.log("最终检查：accessKey 的值是：", accessKey);
         const payload = {
             ...values, // 这里包含了原来的 { name, email, message, subject: 'Pending...' }
             access_key: accessKey,
