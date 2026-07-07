@@ -11,7 +11,7 @@
                 {{ siteConfig?.index?.hero?.welcomeText }}
             </h1>
 
-            <p class="text-hero-sub text-center text-lg md:text-xl leading-relaxed max-w-md mt-6 opacity-80 font-light">
+            <p class="text-hero-sub text-center text-xl md:text-2xl leading-relaxed max-w-2xl mt-6 opacity-80 font-light">
                 {{ siteConfig?.index?.hero?.mainHeading }}
             </p>
 

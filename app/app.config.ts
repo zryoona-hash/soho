@@ -15,7 +15,7 @@ export default defineAppConfig({
     "hero": {
       "welcomeText": "Jinglan Sourcing",
       "mainHeading": "Helping Global Buyers Source Quality Products from China",
-      "ctaButton": "Start Your Inquiry",
+      "ctaButton": "Discover our products",
       "logoMarqueeFirst": " Relied on by brands",
       "logoMarqueeSecond": " Across the globe",
       "brands": ["Vortex", "Nimbus", "Prysma", "Cirrus", "Kynder", "Halcyn"]
