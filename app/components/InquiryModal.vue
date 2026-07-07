@@ -54,6 +54,7 @@
                             <label
                                 class="block text-xs text-zinc-500 uppercase tracking-widest ml-1">Product Required</label>
                             <input
+                                name="product"
                                 type="text"
                                 class="w-full px-4 py-3.5 rounded-2xl border border-white/10 bg-white/5 text-white placeholder:text-zinc-600 outline-none"
                                 placeholder="What product do you need?">
