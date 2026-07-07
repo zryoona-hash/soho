@@ -49,6 +49,16 @@
                                 errors.email }}</p>
                         </div>
 
+                        <!-- Product Required -->
+                        <div class="space-y-1.5">
+                            <label
+                                class="block text-xs text-zinc-500 uppercase tracking-widest ml-1">Product Required</label>
+                            <input
+                                type="text"
+                                class="w-full px-4 py-3.5 rounded-2xl border border-white/10 bg-white/5 text-white placeholder:text-zinc-600 outline-none"
+                                placeholder="What product do you need?">
+                        </div>
+
                         <!-- Message -->
                         <div class="space-y-1.5">
                             <label
@@ -107,6 +117,10 @@ const { defineField, handleSubmit, errors, isSubmitting, resetForm } = useForm({
 const [name, nameAttrs] = defineField('name');
 const [email, emailAttrs] = defineField('email');
 const [message, messageAttrs] = defineField('message');
+const company = ref('')
+const whatsapp = ref('')
+const product = ref('')
+const quantity = ref('')
 
 
 const handleClose = () => {
