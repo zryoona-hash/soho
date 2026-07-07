@@ -54,10 +54,11 @@
                             <label
                                 class="block text-xs text-zinc-500 uppercase tracking-widest ml-1">Product Required</label>
                             <input
+                                v-model="product"
                                 name="product"
                                 type="text"
                                 class="w-full px-4 py-3.5 rounded-2xl border border-white/10 bg-white/5 text-white placeholder:text-zinc-600 outline-none"
-                                placeholder="What product do you need?">
+                                placeholder="What do you need to source from China?">
                         </div>
 
                         <!-- Message -->
@@ -67,7 +68,7 @@
                             <textarea v-model="message" v-bind="messageAttrs" rows="4"
                                 :class="errors.message ? 'border-red-500/50 bg-red-500/5' : 'border-white/10 bg-white/5 focus:border-primary/50'"
                                 class="w-full px-4 py-3.5 rounded-2xl border text-white placeholder:text-zinc-600 outline-none transition-all duration-300 resize-none"
-                                placeholder="How can we help you?"></textarea>
+                                placeholder="Please describe your requirements, quantity, specifications, destination country, etc."></textarea>
                             <p v-if="errors.message"
                                 class="text-red-500 text-[10px] mt-1 ml-1 uppercase font-bold tracking-wider">{{
                                 errors.message }}</p>
@@ -118,10 +119,7 @@ const { defineField, handleSubmit, errors, isSubmitting, resetForm } = useForm({
 const [name, nameAttrs] = defineField('name');
 const [email, emailAttrs] = defineField('email');
 const [message, messageAttrs] = defineField('message');
-const company = ref('')
-const whatsapp = ref('')
 const product = ref('')
-const quantity = ref('')
 
 
 const handleClose = () => {
@@ -140,6 +138,7 @@ const onSubmit = handleSubmit(
         console.log("最终检查：accessKey 的值是：", accessKey);
         const payload = {
             ...values, // 这里包含了原来的 { name, email, message, subject: 'Pending...' }
+            product: product.value,
             access_key: accessKey,
             subject: `Inquiry for ${productName.value}` // 这样它会覆盖掉 values 里的 'Pending...'
         };
