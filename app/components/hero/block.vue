@@ -7,7 +7,7 @@
         <section  v-scroll-group class="relative z-10 flex-1 flex flex-col items-center justify-center px-4">
             <h1
            
-                class="grow-text text-[80px] md:text-[150px] font-normal leading-[1] tracking-[-0.04em] text-transparent bg-clip-text">
+                class="grow-text text-[56px] md:text-[120px] font-normal leading-[1.1] tracking-[-0.04em] text-transparent bg-clip-text">
                 {{ siteConfig?.index?.hero?.welcomeText }}
             </h1>
 
