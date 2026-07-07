@@ -137,10 +137,12 @@ const onSubmit = handleSubmit(
         }
         console.log("最终检查：accessKey 的值是：", accessKey);
         const payload = {
-            ...values, // 这里包含了原来的 { name, email, message, subject: 'Pending...' }
+            name: values.name,
+            email: values.email,
             product: product.value,
+            message: values.message,
             access_key: accessKey,
-            subject: `Inquiry for ${productName.value}` // 这样它会覆盖掉 values 里的 'Pending...'
+            subject: `New Sourcing Request - ${product.value}`
         };
 
         try {
