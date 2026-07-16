@@ -7,7 +7,7 @@ export default defineAppConfig({
     "address": "Yuhua District, Changsha, Hunan, China"
   },
   "logo": {
-    "logoUrl": "/logo2.png",
+    "logoUrl": "/img/logo2.png",
     "logoName": "Jinglan Sourcing",
     "slogan": "Smarter Sourcing from China. Lower Cost, Same Quality."
   },
