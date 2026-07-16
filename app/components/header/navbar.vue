@@ -15,7 +15,7 @@
                            <img v-if="siteConfig.logo?.logoUrl" :src="siteConfig.logo?.logoUrl" alt="Logo" class="w-full h-full object-contain">
                               
                         </div>
-                        <span class="text-xl font-bold text-white tracking-tighter whitespace-nowrap">
+                        <span class="text-xl font-bold text-white tracking-tighter  whitespace-nowrap">
                             {{ siteConfig?.logo?.logoName }}
                         </span>
                     </NuxtLink>
