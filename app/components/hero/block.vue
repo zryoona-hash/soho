@@ -47,12 +47,12 @@
                     <div class="overflow-hidden flex-1 relative flex items-center">
                         <div class="flex animate-marquee gap-16 whitespace-nowrap">
                             <div v-for="i in 2" :key="i" class="flex gap-16 items-center">
-                                <div v-for="brand in siteConfig?.index?.hero?.brands" :key="brand" class="flex items-center gap-3" >
+                                <div v-for="solution in siteConfig?.index?.hero?.solutions" :key="solution" class="flex items-center gap-3" >
                                     <div
                                         class="liquid-glass w-7 h-7 rounded-lg flex items-center justify-center font-bold text-xs">
-                                        {{ brand[0] }}
+                                        {{ solution[0] }}
                                     </div>
-                                    <span class="text-base font-semibold text-foreground/90 tracking-tight">{{ brand }}</span>
+                                    <span class="text-base font-semibold text-foreground/90 tracking-tight">{{ solution }}</span>
                                 </div>
                             </div>
                         </div>

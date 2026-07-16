@@ -16,9 +16,9 @@ export default defineAppConfig({
       "welcomeText": "Jinglan Sourcing",
       "mainHeading": "Helping Global Buyers Source Quality Products from China",
       "ctaButton": "Discover our products",
-      "logoMarqueeFirst": " Relied on by brands",
-      "logoMarqueeSecond": " Across the globe",
-      "brands": ["Vortex", "Nimbus", "Prysma", "Cirrus", "Kynder", "Halcyn"]
+      "logoMarqueeFirst": "Sourcing Solutions",
+      "logoMarqueeSecond": "For Global Buyers",
+      "solutions": ["Supplier Network", "Product Sourcing", "Quality Assurance", "Custom Solutions", "Global Shipping"]
     },
     "case": {
       "tag": "Products Studies",
