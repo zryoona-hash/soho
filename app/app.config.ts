@@ -7,7 +7,7 @@ export default defineAppConfig({
     "address": "Yuhua District, Changsha, Hunan, China"
   },
   "logo": {
-    "logoUrl": "https://hidaddy.oss-cn-shanghai.aliyuncs.com/daddytemplate/fortemplate/logo2.svg",
+    "logoUrl": "https://hidaddy.oss-cn-shanghai.aliyuncs.com/daddytemplate/fortemplate/logo2.png",
     "logoName": "Jinglan Sourcing",
     "slogan": "Smarter Sourcing from China. Lower Cost, Same Quality."
   },
