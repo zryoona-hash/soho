@@ -29,7 +29,7 @@ export default defineAppConfig({
           brand: "Industrial Components",
           title: "Helping a Turkish Buyer Start Sourcing from China",
           description: "A Turkish customer needed industrial chain bushes, but local production was unavailable. As they had never sourced this product from China before, we helped identify a suitable supplier, negotiate competitive pricing, and coordinate the entire purchasing process. The customer received 100,000 pieces in perfect condition and gained confidence in building a long-term supply relationship with China.",
-          image: "https://framerusercontent.com/images/RCsP0l6V7UkhbhoCg6xOrRct8.png?scale-down-to=512&width=1994&height=1254",
+          image: "https://soho-two-mocha.vercel.app/img/case1.jpg",
           impact: ["First Successful China Sourcing Experience", "100,000 Pieces Successfully Delivered", "Competitive Factory Pricing Achieved", "High Customer Satisfaction with Product Quality"]
         },
         {
