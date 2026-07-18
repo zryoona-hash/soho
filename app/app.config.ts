@@ -26,11 +26,11 @@ export default defineAppConfig({
       "subtitle": "DaddyTemplate is a global business platform that helps businesses to grow and succeed. See how DaddyTemplate helps businesses to transform their operations and drive growth.",
       "product": [
         {
-          brand: "Logoipsum",
-          title: "DaddyTemplate-driven forecasting cut inventory waste by 40% for TrailForge",
-          description: "TrailForge, a suitcase brand, faced stock issues and inefficiencies. Our AI forecasting optimized inventory and production cycles, helping them save costs and deliver faster.",
+          brand: "Industrial Components",
+          title: "Helping a Turkish Buyer Start Sourcing from China",
+          description: "A Turkish customer needed industrial chain bushes, but local production was unavailable. As they had never sourced this product from China before, we helped identify a suitable supplier, negotiate competitive pricing, and coordinate the entire purchasing process. The customer received 100,000 pieces in perfect condition and gained confidence in building a long-term supply relationship with China.",
           image: "https://framerusercontent.com/images/RCsP0l6V7UkhbhoCg6xOrRct8.png?scale-down-to=512&width=1994&height=1254",
-          impact: ["40% Less Inventory Waste", "35% Faster Production", "20% More Accurate Forecasting", "25% Faster Fulfillment"]
+          impact: ["First Successful China Sourcing Experience", "100,000 Pieces Successfully Delivered", "Competitive Factory Pricing Achieved", "High Customer Satisfaction with Product Quality"]
         },
         {
           brand: "TechFlow",
