@@ -35,9 +35,9 @@ export default defineAppConfig({
         {
           brand: "Power Supply Solutions",
           title: "Helping an Israeli Customer Optimize Sourcing and Delivery",
-          description: "An Israeli customer needed power adapters but faced high shipping costs with their existing logistics provider. We helped source reliable products from China and arranged a faster, more cost-effective shipping solution.",
+          description: "An Israeli customer needed power adapters and was looking for a more efficient sourcing solution. We helped source reliable products from China and arranged a suitable logistics solution based on their needs.",
           image: "https://soho-two-mocha.vercel.app/img/case2.jpg",
-          impact: ["3 days early delivery", "reduced shipping costs", "continued cooperation with the customer."]
+          impact: ["3 days early delivery", "reduced shipping costs", "continued cooperation with the customer"]
         },
         {
           brand: "GlobalLogistics",
