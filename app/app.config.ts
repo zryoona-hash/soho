@@ -33,11 +33,11 @@ export default defineAppConfig({
           impact: ["First Successful China Sourcing Experience", "100,000 Pieces Successfully Delivered", "Competitive Factory Pricing Achieved", "High Customer Satisfaction with Product Quality"]
         },
         {
-          brand: "TechFlow",
-          title: "Smart automation boosted customer support efficiency by 60%",
-          description: "TechFlow implemented our autonomous agent system to handle tier-1 queries, allowing their human team to focus on high-value strategic accounts.",
-          image: "https://framerusercontent.com/images/OAh2gezmnAvyLRNtJyZzYkKLE.jpg?scale-down-to=512&width=3428&height=2160",
-          impact: ["60% Reduction in Response Time", "95% Customer Satisfaction Score", "45% Operational Cost Savings", "24/7 Global Support Coverage"]
+          brand: "Power Supply Solutions",
+          title: "Helping an Israeli Customer Optimize Sourcing and Delivery",
+          description: "An Israeli customer needed power adapters but faced high shipping costs with their existing logistics provider. We helped source reliable products from China and arranged a faster, more cost-effective shipping solution.",
+          image: "https://soho-two-mocha.vercel.app/img/case2.jpg",
+          impact: ["3 days early delivery", "reduced shipping costs", "continued cooperation with the customer."]
         },
         {
           brand: "GlobalLogistics",
