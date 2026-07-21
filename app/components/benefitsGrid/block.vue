@@ -53,21 +53,21 @@
 <script setup lang="ts">
 const siteConfig = useAppConfig()
 import { 
-  Zap, 
-  Users, 
-  Clock, 
+  Search, 
   DollarSign, 
-  Database, 
-  TrendingUp 
+  PenTool, 
+  ShieldCheck, 
+  Handshake, 
+  Truck 
 } from 'lucide-vue-next'
 // 2. 建立一个局部映射表
 const iconMap = {
-  Zap,
-  Users,
-  Clock,
+  Search,
   DollarSign,
-  Database,
-  TrendingUp
+  PenTool,
+  ShieldCheck,
+  Handshake,
+  Truck
 }
 </script>
 
