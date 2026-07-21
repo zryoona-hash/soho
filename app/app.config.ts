@@ -49,39 +49,39 @@ export default defineAppConfig({
       ]
     },
     "benefitsGrid": {
-      "tag": "Benefits",
-      "mainHeading": " See How DaddyTemplate Transforms Businesses",
-      "subtitle": "DaddyTemplate is a global business platform that helps businesses to grow and succeed. See how DaddyTemplate helps businesses to transform their operations and drive growth.",
+      "tag": "Our Services",
+      "mainHeading": " Simplifying Your Sourcing Journey in China",
+      "subtitle": "From finding reliable suppliers to managing purchasing processes, we help global buyers source quality products from China with confidence.",
       "benefits": [
         {
-          title: "Iqqqncreased Productivity",
-          description: "Gain actionable insights with AI-driven analytics to improve decision-making and strategy.",
-          icon: 'Zap'
+          title: "Supplier Sourcing",
+          description: "We help you find suitable manufacturers in China based on your product requirements and business needs.",
+          icon: 'Search'
         },
         {
-          title: "Better Customer Experience",
-          description: "Personalized AI interactions improve response times, customer engagement, and overall satisfaction.",
-          icon: 'Users'
-        },
-        {
-          title: "24/7 Availability",
-          description: "AI-powered systems operate around the clock, ensuring seamless support and execution without downtime.",
-          icon: 'Clock'
-        },
-        {
-          title: "Cost Reduction",
-          description: "AI automation minimizes manual work, cuts operational costs, and optimizes resource allocation for better profitability.",
+          title: "Quotation & Price Negotiation",
+          description: "We compare supplier options and negotiate competitive prices to help you achieve better purchasing costs.",
           icon: 'DollarSign'
         },
         {
-          title: "Data-Driven Insights",
-          description: "Leverage AI to analyze vast data sets, identify trends, and make smarter, faster, and more accurate business decisions.",
-          icon: 'Database'
+          title: "OEM & Private Label",
+          description: "We help you customize products, packaging and branding to create market-ready products under your own brand.",
+          icon: 'PenTool'
         },
         {
-          title: "Scalability & Growth",
-          description: "AI adapts to your business needs, allowing you to scale efficiently without increasing workload or costs.",
-          icon: 'TrendingUp'
+          title: "Quality Inspection Support",
+          description: "Before shipment, we provide production updates and inspection videos to help ensure products meet your requirements.",
+          icon: 'ShieldCheck'
+        },
+        {
+          title: "Business Partnership Negotiation",
+          description: "We help overseas buyers communicate with Chinese manufacturers and negotiate distribution opportunities, cooperation terms and long-term partnerships.",
+          icon: 'Handshake'
+        },
+        {
+          title: "Order & Delivery Support",
+          description: "We coordinate communication, orders and shipping arrangements to make sourcing from China easier.",
+          icon: 'Truck'
         }
       ],
       "name": "North Partners",
