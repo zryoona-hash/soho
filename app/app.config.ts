@@ -40,11 +40,11 @@ export default defineAppConfig({
           impact: ["3 days early delivery", "reduced shipping costs", "continued cooperation with the customer"]
         },
         {
-          brand: "GlobalLogistics",
-          title: "Real-time route optimization saved 15% in annual fuel costs",
-          description: "By integrating our AI route planning, GlobalLogistics minimized empty miles and wait times across their entire European fleet.",
-          image: "https://framerusercontent.com/images/N1GfEHKZ3p621UIObOLVqi5Z4s.jpg?scale-down-to=512&width=2000&height=1260",
-          impact: ["115% Fuel Efficiency Increase", "12,000 Tons CO2 Saved Yearly", "100% On-time Delivery Rate", "Real-time Fleet Visibility"]
+          brand: "Automotive & Refrigeration Tools",
+          title: "Helping an Italian Customer Source a Hard-to-Find Refrigerant Oil Injector",
+          description: "An Italian customer needed 2,000 sets of refrigerant oil injectors but struggled to find a suitable supplier. We leveraged our sourcing network in China to identify reliable manufacturers, compare available options, and provide a competitive sourcing solution that matched the customer's requirements.",
+          image: "https://soho-two-mocha.vercel.app/img/case3.jpg",
+          impact: ["Solved the customer's challenge of sourcing a specialized product", "Supported a successful 2,000-set bulk purchase", "Built a long-term cooperation opportunity with the supplier"]
         }
       ]
     },
