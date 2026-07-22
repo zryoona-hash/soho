@@ -244,30 +244,28 @@ export default defineAppConfig({
     "address": "Yuhua District, Changsha, Hunan, China",
   },
   "footer": {
-    "emailmessage": "Request a Product Sample",
+    "emailmessage": "Start Your Sourcing Request",
     "socials": [
-      { label: 'X', href: 'https://x.com/Zhuxiaoming1987' },
-      { label: 'Facebook', href: 'https://facebook.com/daddytemplate' },
-      { label: 'Discord', href: '#' }
-    ]
+      { label: 'Whatsapp', href: 'https://wa.me/8615211136725' }
+   ]   
   },
   "seo": {
     "index": {
-      "title": "老爹模板 - 首页",
-      "description": "老爹模板为外贸企业提供免费模板,帮助他们快速启动业务,提高效率。",
+      "title": "Jinglan Sourcing - China Sourcing Partner",
+      "description": "Jinglan Sourcing helps global buyers find reliable manufacturers in China, negotiate competitive prices, and manage sourcing from supplier selection to delivery.",
       "ogImage": "/default-og.jpg",
       "twitterCard": "summary_large_image"
     },
     "about": {
       "tag": "About Us",
-      "title": "老爹模板 - 关于我们",
-      "description": "老爹模板为外贸企业提供免费模板,帮助他们快速启动业务,提高效率。",
+      "title": "About Jinglan Sourcing - Helping Global Buyers Source from China",
+      "description": "We connect overseas buyers with reliable Chinese manufacturers and provide sourcing support including supplier search, quotation comparison, quality coordination and order management.",
       "ogImage": "/default-og.jpg",
       "twitterCard": "summary_large_image"
     },
     "contact": {
-      "title": "老爹模板 - 联系我们",
-      "description": "老爹模板为外贸企业提供免费模板,帮助他们快速启动业务,提高效率。",
+      "title": "Contact Jinglan Sourcing - Start Your China Sourcing Request",
+      "description": "Share your product requirements with us and we will help you find suitable suppliers and sourcing solutions in China.",
       "ogImage": "/default-og.jpg",
       "twitterCard": "summary_large_image"
     }
