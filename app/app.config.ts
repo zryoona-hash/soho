@@ -86,7 +86,7 @@ export default defineAppConfig({
       ],
       "name": "Jinglan Sourcing",
       "logo": "/img/logo2.png"
-      }，
+      },
     "faq": {
       "tag": "FAQS",
       "mainHeading": "Frequently Asked Questions",
