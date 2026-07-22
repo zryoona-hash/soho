@@ -246,7 +246,7 @@ export default defineAppConfig({
   "footer": {
     "emailmessage": "Start Your Sourcing Request",
     "socials": [
-      { label: 'Whatsapp', href: 'https://wa.me/8615211136725' }
+      { label: 'WhatsApp', href: 'https://wa.me/8615211136725' }
    ]   
   },
   "seo": {
