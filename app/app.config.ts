@@ -84,44 +84,43 @@ export default defineAppConfig({
           icon: 'Truck'
         }
       ],
-      "name": "North Partners",
-      "logo": "https://the7.io/fse-corporate/wp-content/uploads/sites/142/2025/08/Slide-3_2-logo-6.svg"
-    },
+      "name": "Jinglan Sourcing",
+      "logo": "/img/logo2.png"
     "faq": {
       "tag": "FAQS",
-      "mainHeading": " We've Got the Answers You're Looking For",
-      "subtitle": "Quick answers to your AI automation questions.",
+      "mainHeading": "Frequently Asked Questions",
+      "subtitle": "Common questions about sourcing products from China.",
       "faqs": [
         {
-          question: "这个模板是免费的吗?",
-          answer: "是的，这个模板是免费的。不收取任何费用, 你可以免费使用这个模板来实现你的业务需求。"
+          question: "What information do you need to help me source a product?",
+          answer: "Please provide as much information as possible, such as product photos, specifications, drawings, quantity requirements, application details or any available references. This helps us understand your needs and find suitable suppliers more efficiently."
         },
         {
-          question: "How can AI automation help my business?",
-          answer: "AI automation streamlines your repetitive tasks, reduces human error, and provides data-driven insights, allowing your team to focus on strategic growth activities."
+          question: "I have never purchased from China before. Can you help me start?",
+          answer: "Yes. We help guide you through the sourcing process, including supplier communication, quotation comparison, product confirmation and order coordination, making your first China purchase easier."
         },
         {
-          question: "Is AI automation difficult to integrate?",
-          answer: "Not at all. Our platform is designed for seamless integration with your existing workflow, requiring minimal technical setup to get started."
+          question: "Can I order samples before placing a bulk order?",
+          answer: "Yes. For first-time cooperation, we can help arrange samples so you can evaluate product quality, specifications and supplier reliability before placing larger orders."
         },
         {
-          question: "What industries can benefit from AI automation?",
-          answer: "From e-commerce and logistics to manufacturing and finance, any industry with standardized processes can see immediate ROI from AI implementation."
+          question: "What payment methods do you accept?",
+          answer: "We support T/T bank transfers for regular orders and PayPal payments for sample orders. We also provide flexible payment solutions through international banking channels, including local payment options in selected countries, making transactions easier for global buyers."
         },
         {
-          question: "Do I need technical knowledge to use AI automation?",
-          answer: "No. Our user-friendly dashboard and pre-built templates make it easy for anyone to deploy and manage sophisticated AI agents without writing code."
+          question: "What is your minimum order quantity (MOQ)?",
+          answer: "MOQ depends on the product and supplier requirements. We help communicate with manufacturers and find suitable solutions based on your purchasing needs."
         },
         {
-          question: "What kind of support do you offer?",
-          answer: "We provide 24/7 technical support, comprehensive documentation, and a dedicated success manager to ensure your transition to AI is smooth and effective."
+          question: "How do you select reliable suppliers in China?",
+          answer: "We evaluate suppliers by reviewing their company background, business history, production capabilities and product experience. We communicate with manufacturers to understand their strengths and ensure they are suitable for your specific requirements before recommending them."
         }
       ]
     },
     "cart": {
-      "tag": "Cart",
-      "mainHeading": "Book a Call Today and Start Automating",
-      "subtitle": "1Get started with AI automation today and watch your business grow."
+      "tag": "Start Your Sourcing Journey",
+      "mainHeading": "Ready to Source Quality Products from China?",
+      "subtitle": "Tell us what you need, and we will help you find suitable suppliers and sourcing solutions."
     },
   },
   "productFeature": {
