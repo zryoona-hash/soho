@@ -15,18 +15,18 @@
         <span class="opacity-30">/</span>
         <NuxtLink to="/products" class="hover:text-blue-500 transition-colors">Products</NuxtLink>
         <span class="opacity-30">/</span>
-        <span class="text-zinc-300 capitalize">{{ categoryName }}</span>
+        <span class="text-zinc-300 capitalize">{{ formattedCategory }}</span>
       </nav>
 
       <!-- 2. 标题区域 - 采用 header-reveal 动效 -->
       <div class="mb-16 max-w-[800px]">
         <div v-scroll-reveal
           class="inline-block px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-[10px] font-bold uppercase tracking-widest mb-6">
-          Collections
+          Products
         </div>
         <h1 v-scroll-reveal
           class="text-[42px] md:text-[60px] font-bold text-white tracking-[-0.04em] leading-[1.1] mb-6 capitalize">
-          See Our Collections <span class="text-blue-500">{{ categoryName }}</span>
+          {{ formattedCategory }}
         </h1>
 
       </div>
@@ -54,7 +54,7 @@
           <h3 class="text-2xl font-bold text-white mb-2 tracking-tight">Stay Tuned</h3>
           <p class="text-zinc-500 max-w-[300px] mx-auto font-light leading-relaxed">
             New high-quality products are currently being added to the <span class="text-zinc-300 capitalize">{{
-              categoryName }}</span> collection.
+              formattedCategory }}</span> collection.
           </p>
           <div class="mt-10">
             <NuxtLink to="/products"
