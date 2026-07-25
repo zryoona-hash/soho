@@ -162,12 +162,12 @@ export default defineAppConfig({
     "storyTitle": "Our Story",
     "storyParagraphs": [
       "Jinglan Sourcing was founded from a simple belief: every business deserves a reliable partner when sourcing from China. With a background in Business English and three years of foreign trade experience, I have had the opportunity to communicate with customers from different countries and understand the importance of trust, efficiency, and clear communication in global trade.",
-      "After graduation, I also explored entrepreneurship by running my own online coffee business. This experience helped me understand the challenges businesses face, especially the importance of cost control, customer satisfaction, and reliable partnerships."
+      "After graduation, I also explored entrepreneurship by running my own online coffee business. This experience helped me understand the challenges businesses face, especially the importance of cost control, customer satisfaction, and reliable partnerships.",
       "These experiences inspired the creation of Jinglan Sourcing. We help global buyers connect with reliable Chinese suppliers, improve purchasing efficiency, reduce unnecessary procurement costs, and manage sourcing projects with confidence. Our goal is to become a trusted partner that customers can rely on for long-term cooperation."
     ],
     "gallery":[
-       '/img/qingdao-port.jpg',
-       '/img/changsha.jpg',
+       "/img/changsha.jpg",
+       "/img/qingdao-port.jpg"
     ]
     ,
     "ourvalue": {
