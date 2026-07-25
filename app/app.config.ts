@@ -148,26 +148,26 @@ export default defineAppConfig({
     }
   },
   "about": {
-    "tag": "WHO WE ARE",
-    "titleOne": "We bridge the gap between",
-    "titleTwo": "vision",
-    "titleThree": "and reality.",
-    "description": "Driven by passion and precision, we craft digital experiences that redefine industry standards and empower global growth.",
+    "tag": "OUR JOURNEY",
+    "titleOne": "Your trusted partner for",
+    "titleTwo": "China",
+    "titleThree": "sourcing.",
+    "description": "From foreign trade experience to entrepreneurship, Jinglan Sourcing was founded on the belief that every business deserves a reliable partner in China.",
     "stats": [
-      { number: '6+', 'label': 'Years Experience' },
-      { number: '120+', 'label': 'Projects Completed' },    
-      { number: '15+', 'label': 'Industry Awards' },
-      { number: '98%', 'label': 'Client Retention' }
+      { number: '3+', 'label': 'Years Foreign Trade Experience' },
+      { number: '10+', 'label': 'Product Categories' },    
+      { number: '50+', 'label': 'Supplier Network' },
+      { number: '24h', 'label': 'Response Time' }
     ],
     "storyTitle": "Our Story",
     "storyParagraphs": [
-      "Founded in the heart of global commerce, [Company Name] has evolved from a specialized sourcing agent into a comprehensive international trade powerhouse. For over six years, we have stood at the intersection of supply and demand, providing seamless connectivity for businesses across the globe. Our journey is built on a foundation of unwavering integrity and a deep understanding of market dynamics.",
-      "With a robust network spanning over 50 countries and regions, we facilitate the flow of high-quality goods across continents. We don't just move products; we manage complex supply chains. From rigorous factory audits and quality control to optimized logistics and customs clearance, our team ensures that every link in the chain is optimized for efficiency and reliability."
+      "Jinglan Sourcing was founded from a simple belief: every business deserves a reliable partner when sourcing from China. With a background in Business English and three years of foreign trade experience, I have had the opportunity to communicate with customers from different countries and understand the importance of trust, efficiency, and clear communication in global trade.",
+      "After graduation, I also explored entrepreneurship by running my own online coffee business. This experience helped me understand the challenges businesses face, especially the importance of cost control, customer satisfaction, and reliable partnerships."
+      "These experiences inspired the creation of Jinglan Sourcing. We help global buyers connect with reliable Chinese suppliers, improve purchasing efficiency, reduce unnecessary procurement costs, and manage sourcing projects with confidence. Our goal is to become a trusted partner that customers can rely on for long-term cooperation."
     ],
     "gallery":[
-       'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&q=80'
+       '/img/qingdao-port.jpg',
+       '/img/changsha.jpg',
     ]
     ,
     "ourvalue": {
