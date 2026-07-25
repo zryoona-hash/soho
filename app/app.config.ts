@@ -1,13 +1,13 @@
 // app.config.ts
 export default defineAppConfig({
   "base": {
-    "email": "zryoona@gamil.com",
+    "email": "zryoona@gmail.com",
     "companyName": "Jinglan Sourcing",
     "phone": "+86 15211136725",
     "address": "Yuhua District, Changsha, Hunan, China"
   },
   "logo": {
-    "logoUrl": "https://soho-two-mocha.vercel.app/img/logo2.png",
+    "logoUrl": "/img/logo2.png",
     "logoName": "Jinglan Sourcing",
     "slogan": "Smarter Sourcing from China. Lower Cost, Same Quality."
   },
@@ -21,29 +21,29 @@ export default defineAppConfig({
       "solutions": ["Supplier Network", "Product Sourcing", "Quality Assurance", "Custom Solutions", "Global Shipping"]
     },
     "case": {
-      "tag": "Products Studies",
-      "mainHeading": " See How DaddyTemplate Transforms Businesses",
-      "subtitle": "DaddyTemplate is a global business platform that helps businesses to grow and succeed. See how DaddyTemplate helps businesses to transform their operations and drive growth.",
+      "tag": "Sourcing Cases",
+      "mainHeading": "Real Sourcing Solutions for Global Buyers",
+      "subtitle": "Discover how Jinglan Sourcing helps businesses find reliable suppliers, optimize procurement costs, and build long-term partnerships with Chinese manufacturers.",
       "product": [
         {
           brand: "Industrial Components",
           title: "Helping a Turkish Buyer Start Sourcing from China",
           description: "A Turkish customer needed industrial chain bushes, but local production was unavailable. As they had never sourced this product from China before, we helped identify a suitable supplier, negotiate competitive pricing, and coordinate the entire purchasing process. The customer received 100,000 pieces in perfect condition and gained confidence in building a long-term supply relationship with China.",
-          image: "https://soho-two-mocha.vercel.app/img/case1.jpg",
+          image: "/img/case1.jpg",
           impact: ["First Successful China Sourcing Experience", "100,000 Pieces Successfully Delivered", "Competitive Factory Pricing Achieved", "High Customer Satisfaction with Product Quality"]
         },
         {
           brand: "Power Supply Solutions",
           title: "Helping an Israeli Customer Optimize Sourcing and Delivery",
           description: "An Israeli customer needed power adapters and was looking for a more efficient sourcing solution. We helped source reliable products from China and arranged a suitable logistics solution based on their needs.",
-          image: "https://soho-two-mocha.vercel.app/img/case2.jpg",
+          image: "/img/case2.jpg",
           impact: ["3 days early delivery", "reduced shipping costs", "continued cooperation with the customer"]
         },
         {
           brand: "Automotive & Refrigeration Tools",
           title: "Helping an Italian Customer Source a Hard-to-Find Refrigerant Oil Injector",
           description: "An Italian customer needed 2,000 sets of refrigerant oil injectors but struggled to find a suitable supplier. We leveraged our sourcing network in China to identify reliable manufacturers, compare available options, and provide a competitive sourcing solution that matched the customer's requirements.",
-          image: "https://soho-two-mocha.vercel.app/img/case3.jpg",
+          image: "/img/case3.jpg",
           impact: ["Solved the customer's challenge of sourcing a specialized product", "Supported a successful 2,000-set bulk purchase", "Built a long-term cooperation opportunity with the supplier"]
         }
       ]
@@ -152,9 +152,9 @@ export default defineAppConfig({
     "titleOne": "Your trusted partner for",
     "titleTwo": "China",
     "titleThree": "sourcing.",
-    "description": "From foreign trade experience to entrepreneurship, Jinglan Sourcing was founded on the belief that every business deserves a reliable partner in China.",
+    "description": "From international trade experience to entrepreneurship, Jinglan Sourcing was founded on the belief that every business deserves a reliable partner in China.",
     "stats": [
-      { number: '3+', 'label': 'Years Foreign Trade Experience' },
+      { number: '3+', 'label': 'Years international Trade Experience' },
       { number: '10+', 'label': 'Product Categories' },    
       { number: '50+', 'label': 'Supplier Network' },
       { number: '24h', 'label': 'Response Time' }

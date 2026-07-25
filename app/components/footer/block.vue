@@ -52,13 +52,7 @@
       <!-- 底部版权区 -->
       <div class="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
         <div class="text-zinc-600 text-[12px] tracking-wide font-light">
-          &copy; {{ new Date().getFullYear() }} {{ siteConfig?.base?.companyName || 'DaddyTemplate' }}. All rights reserved.
-        </div>
-
-        <div class="flex items-center gap-8 text-[10px] font-bold uppercase tracking-[0.2em]">
-          <a href="https://www.daddytemplate.com" target="_blank" class="text-zinc-700 hover:text-primary transition-colors flex items-center gap-1">
-            Powered by <span class="text-zinc-500 font-black">DaddyTemplate</span>
-          </a>
+          &copy; {{ new Date().getFullYear() }} {{ siteConfig?.base?.companyName || 'Jinglan Sourcing' }}. All rights reserved.
         </div>
       </div>
     </div>
