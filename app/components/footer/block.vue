@@ -55,10 +55,13 @@
           &copy; {{ new Date().getFullYear() }} {{ siteConfig?.base?.companyName || 'Jinglan Sourcing' }}. All rights reserved.
         </div>
 
-        <div class="flex items-center gap-8 text-[10px] font-bold uppercase tracking-[0.2em]"> <span class="text-zinc-500 font-black">China Sourcing Partner</span>
+       <div class="flex items-center gap-8 text-[10px] font-bold uppercase tracking-[0.2em]">
+         <a href="/" target="_blank" class="text-zinc-700 hover:text-primary transition-colors flex items-center gap-1">
+            <span class="text-zinc-500 font-black">China Sourcing Partner</span>
+          </a>
+        </div>
       </div>
-    </div>
-  </div>
+</div>
 </footer>
 </template>
 
