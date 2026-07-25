@@ -171,23 +171,23 @@ export default defineAppConfig({
     ]
     ,
     "ourvalue": {
-      "tag": "VALUE",
-      "title": "Our Value",
-      "subtitle": "Our core values drive our success and ensure customer trust satisfaction.",
+      "tag": "OUR APPROACH",
+      "title": "What Makes Us Different",
+      "subtitle": "We believe successful cooperation comes from understanding, communication, and giving every project the attention it deserves.",
       "benefits": [
         {
-          title: "Iqqqncreased Productivity",
-          description: "Gain actionable insights with AI-driven analytics to improve decision-making and strategy.",
-          icon: 'Target'
-        },
-        {
-          title: "Better Customer Experience",
-          description: "Personalized AI interactions improve response times, customer engagement, and overall satisfaction.",
+          title: "Dedicated Attention",
+          description: "As a focused sourcing partner, we take the time to understand each client's needs and provide personalized support throughout every project.",
           icon: 'Users'
         },
         {
-          title: "24/7 Availability",
-          description: "AI-powered systems operate around the clock, ensuring seamless support and execution without downtime.",
+          title: "Customer-Focused Solutions",
+          description: "We use our international trade experience to understand your challenges and recommend solutions from your perspective.",
+          icon: 'Target'
+        },
+        {
+          title: "Transparent Cooperation",
+          description: "We encourage clients to compare our quotations with other suppliers because long-term trust is built on honesty and transparency.",
           icon: 'ShieldCheck'
         },
       ],
