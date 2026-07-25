@@ -54,9 +54,12 @@
         <div class="text-zinc-600 text-[12px] tracking-wide font-light">
           &copy; {{ new Date().getFullYear() }} {{ siteConfig?.base?.companyName || 'Jinglan Sourcing' }}. All rights reserved.
         </div>
+
+        <div class="flex items-center gap-8 text-[10px] font-bold uppercase tracking-[0.2em]"> <span class="text-zinc-500 font-black">China Sourcing Partner</span>
       </div>
     </div>
-  </footer>
+  </div>
+</footer>
 </template>
 
 <script setup lang="ts">
