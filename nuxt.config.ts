@@ -22,10 +22,6 @@ export default defineNuxtConfig({
   },
   modules: ['@nuxt/content', '@nuxtjs/sitemap', '@nuxt/image'],
 
-  site: {
-  url: 'https://jinglansourcing.com'
-},
-
   future: {
     compatibilityVersion: 4,
   },
