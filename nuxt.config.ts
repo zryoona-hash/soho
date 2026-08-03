@@ -18,6 +18,17 @@ export default defineNuxtConfig({
   app: {
     baseURL: process.env.NUXT_APP_BASE_URL || '/',
     pageTransition: { name: 'page', mode: 'out-in' },
+
+    head: {
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/img/favicon.ico'
+      }
+    ]
+  }
+},
     
   },
   modules: ['@nuxt/content', '@nuxtjs/sitemap', '@nuxt/image'],
