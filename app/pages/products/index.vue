@@ -45,9 +45,8 @@
           <!-- 内容内容 -->
           <div class="relative z-10">
             <h3 class="text-2xl font-bold text-white mb-3 tracking-tight group-hover:text-blue-400 transition-colors capitalize">
-              {{ category }}
-            </h3>
-           
+              {{ category.title }}
+           </h3>
             
             <!-- 底部引导按钮风格 -->
             <div class="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-blue-500 group-hover:translate-x-1 transition-transform">
