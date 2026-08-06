@@ -10,7 +10,7 @@
         <nav v-scroll-reveal class="flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] font-bold text-zinc-500 mb-8">
           <NuxtLink to="/" class="hover:text-blue-500 transition-colors">Home</NuxtLink>
           <span class="opacity-30">/</span>
-          <NuxtLink :to="`/products/${categoryName}`" class="hover:text-blue-500 transition-colors capitalize">{{ categoryName }}</NuxtLink>
+          <NuxtLink :to="`/products/${categoryName.toLowerCase()}`" class="hover:text-blue-500 transition-colors capitalize">{{ categoryName }}</NuxtLink>
           <span class="opacity-30">/</span>
           <span class="text-zinc-300 line-clamp-1 uppercase">{{ product?.title || 'Loading...' }}</span>
         </nav>
