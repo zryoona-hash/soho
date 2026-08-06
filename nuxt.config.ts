@@ -56,9 +56,10 @@ export default defineNuxtConfig({
 
   // 3. Sitemap 依然保留，确保告诉搜索引擎你的所有路径
   sitemap: {
-    strictNuxtContentAds: true // 自动包含所有 nuxt-content 里的文章
+    strictNuxtContentAds: true,// 自动包含所有 nuxt-content 里的文章
+    hostname: 'https://jinglansourcing.com'
   }
 
 
 
-})
+}
