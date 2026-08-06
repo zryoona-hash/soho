@@ -73,7 +73,7 @@
 import { PackageOpen } from 'lucide-vue-next'
 
 const route = useRoute()
-const categoryName = route.params.category as string
+const categoryName = (route.params.category as string).toLowerCase()
 
 const { data: products } = await useAsyncData(`category-${categoryName}`, () => {
   // 使用新的 queryCollection 语法
