@@ -29,8 +29,8 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <NuxtLink 
           v-for="(category, index) in categories" 
-          :key="category" 
-          :to="`/products/${category}`"
+          :key="category.path" 
+          :to="category.path"
           v-scroll-reveal="{ delay: index * 0.1, y: 20 }"
           class="group relative block overflow-hidden rounded-[2rem] border border-white/10 bg-[#050505] p-10 transition-all duration-500 hover:border-blue-500/30 shadow-2xl"
         >

@@ -25,7 +25,7 @@ export const useProductsNav = async () => {
           const categorySlug = parts[1]
           if (!categoriesMap.has(categorySlug)) {
             categoriesMap.set(categorySlug, {
-              title: categorySlug.charAt(0).toUpperCase() + categorySlug.slice(1),
+              title: categorySlug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' '),
               path: `/products/${categorySlug}`,
               children: [] // 如果需要子项，可以在这里进一步 push
             })
