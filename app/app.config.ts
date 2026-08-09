@@ -1,7 +1,7 @@
 // app.config.ts
 export default defineAppConfig({
   "base": {
-    "email": "zryoona@gmail.com",
+    "email": "info@jinglansourcing.com",
     "companyName": "Jinglan Sourcing",
     "phone": "+86 15211136725",
     "address": "Yuhua District, Changsha, Hunan, China"
@@ -235,11 +235,11 @@ export default defineAppConfig({
     "title": "Start your next",
     "sptext": "project",
     "contactInfo": [
-      { icon: 'Mail', label: 'Email', value: 'zryoona@gmail.com' },
+      { icon: 'Mail', label: 'Email', value: 'info@jinglansourcing.com' },
       { icon: 'Phone', label: 'Phone', value: '+86 152 1113 6725' },
       { icon: 'MapPin', label: 'Office', value: 'Yuhua District, Changsha, Hunan, China' }
     ],
-    "email": "zryoona@gmail.com",
+    "email": "info@jinglansourcing.com",
     "phone": "+86 152 1113 6725",
     "address": "Yuhua District, Changsha, Hunan, China",
   },
