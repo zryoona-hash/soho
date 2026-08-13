@@ -18,8 +18,7 @@ export default defineAppConfig({
       "ctaButton": "Discover our products",
       "logoMarqueeFirst": "Sourcing Solutions",
       "logoMarqueeSecond": "For Global Buyers",
-      "solutions": ["Supplier Network", "Product Sourcing", "Quality Assurance", "Custom Solutions", "Global Shipping"]
-    },
+      "solutions": ["EUROPE", "NORTH AMERICA", "MIDDLE EAST", "LATIN AMERICA","AND BEYOND"]
     "case": {
       "tag": "Sourcing Cases",
       "mainHeading": "Real Sourcing Solutions for Global Buyers",
