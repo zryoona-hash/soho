@@ -68,7 +68,7 @@ const { data: navData } = await useProductsNav()
 // const categories = navData.value[0].children.map(item => item.title)
 const categories = computed(() => {
   if (!navData.value || !navData.value[0]?.children) return []
-  return navData.value[0].children.map(item => item.title)
+  return navData.value[0].children
 })
 // console.log('categories', categories)
 </script>
