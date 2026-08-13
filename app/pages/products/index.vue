@@ -15,13 +15,13 @@
       <!-- 2. 标题区域 - 采用 header-reveal -->
       <div class="mb-20 max-w-[700px]">
         <div v-scroll-reveal class="inline-block px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-[10px] font-bold uppercase tracking-widest mb-6">
-          Our Collection
+          Our Products
         </div>
         <h1 v-scroll-reveal class="text-[42px] md:text-[60px] font-bold text-white tracking-[-0.04em] leading-[1.1] mb-6">
-          Explore Our <span class="text-blue-500">Product</span> Categories
+          Quality Products, <span class="text-blue-500">Sourced in China</span> 
         </h1>
         <p v-scroll-reveal="{ delay: 0.3 }" class="text-zinc-500 text-lg md:text-xl font-light">
-          Discover high-performance solutions across our diverse industrial portfolios.
+          Discover selected products sourced from reliable Chinese manufacturers for global buyers.
         </p>
       </div>
 
@@ -50,7 +50,7 @@
             
             <!-- 底部引导按钮风格 -->
             <div class="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-blue-500 group-hover:translate-x-1 transition-transform">
-              <span>View Products</span>
+              <span>View Details</span>
               <ArrowRight class="size-3" />
             </div>
           </div>
