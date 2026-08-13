@@ -19,6 +19,7 @@ export default defineAppConfig({
       "logoMarqueeFirst": "Sourcing Solutions",
       "logoMarqueeSecond": "For Global Buyers",
       "solutions": ["EUROPE", "NORTH AMERICA", "MIDDLE EAST", "LATIN AMERICA","AND BEYOND"]
+        },
     "case": {
       "tag": "Sourcing Cases",
       "mainHeading": "Real Sourcing Solutions for Global Buyers",
