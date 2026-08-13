@@ -25,12 +25,12 @@ onMounted(async () => {
 })
 // seo meta
 useSeoMeta({
-  title: () => siteConfig.value?.seo?.index.title || 'Default Title',
-  description: () => siteConfig.value?.seo?.index.description || 'Default description',
-  ogTitle: () => siteConfig.value?.seo?.index.title || 'Default Title',
-  ogDescription: () => siteConfig.value?.seo?.index.description || 'Default description',
-  ogImage: () => siteConfig.value?.seo?.index.ogImage || '/default-og.jpg',
-  twitterCard: () => siteConfig.value?.seo?.index.twitterCard || 'summary_large_image',
+  title: 'Jinglan Sourcing',
+  description: 'Jinglan Sourcing helps global buyers find reliable manufacturers in China, negotiate competitive prices, and manage sourcing from supplier selection to delivery.',
+  ogTitle: 'Jinglan Sourcing',
+  ogDescription: 'Jinglan Sourcing helps global buyers find reliable manufacturers in China, negotiate competitive prices, and manage sourcing from supplier selection to delivery.',
+  ogImage: '/default-og.jpg',
+  twitterCard: 'summary_large_image',
 })
 </script>
 
