@@ -33,6 +33,13 @@ export default defineAppConfig({
           impact: ["First Successful China Sourcing Experience", "100,000 Pieces Successfully Delivered", "Competitive Factory Pricing Achieved", "High Customer Satisfaction with Product Quality"]
         },
         {
+          brand: "Beauty & Hair Products",
+          title: "Helping a Portuguese Buyer Source Wigs for Her New Store",
+          description: "A Portuguese customer was preparing to open her own wig store and needed a reliable sourcing partner in China. She asked us to help find suitable wigs based on her target market, budget, and preferred styles. We sourced and compared different wig options, communicated directly with suppliers, evaluated materials and craftsmanship, and coordinated the purchasing and shipping process. We also helped the customer understand the differences between various wig constructions so she could make more informed decisions for her new business.",
+          image: "/img/case4.jpg",
+          impact: ["210 Wigs Successfully Sourced for Her New Store", "Secured Competitive Pricing for Local Retail", "Verified Product Quality and Craftsmanship Before Purchase", "Ensured Smooth Delivery from China to Portugal"]
+        },
+        {
           brand: "Power Supply Solutions",
           title: "Helping an Israeli Customer Optimize Sourcing and Delivery",
           description: "An Israeli customer needed power adapters and was looking for a more efficient sourcing solution. We helped source reliable products from China and arranged a suitable logistics solution based on their needs.",
