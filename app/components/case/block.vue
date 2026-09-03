@@ -71,7 +71,7 @@
         </button>
 
         <button @click="nextCase" class="text-zinc-500 hover:text-white transition-all uppercase tracking-[0.2em] text-[11px] font-bold cursor-pointer hover:scale-105">
-          Click to Explore ({{ currentIndex + 1 }} / 3)
+          Click to Explore ({{ currentIndex + 1 }} / {{ cases.length }})
         </button>
 
         <!-- 右箭头 -->
